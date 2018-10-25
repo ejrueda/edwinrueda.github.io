@@ -64,6 +64,35 @@
 .topnav .icon {
     display: none;
 }
+.perfil {
+    float:left;
+    width:40%;
+    height:100%;
+    padding:2%;
+    margin-top:3%;
+    text-align:center;
+}
+.desc {
+    float:left;
+    width:55%;
+    height:50%;
+    margin-top:3%;
+}
+.inter {
+    /* padding-left: 2%; */
+    padding-right: 2%;
+    float:left;
+    height:50%;
+    width: 20%;
+}
+.study {
+    float:left;
+    height:50%;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1200px) {
     .topnav a:not(:first-child) {display: none;}
@@ -87,5 +116,12 @@
       display: block;
       text-align: left;
     }
+  }
+  @media screen and (max-width: 600px){
+    .perfil, .desc, .inter, .study {
+        width:100%;  
+    }
+    .inter li{padding-left: 40%;}
+    .study{padding-left: 0%;}
   }
   
