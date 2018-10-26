@@ -9,53 +9,22 @@
 <body style="margin: auto;">
     
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- div para el menu -->
     <div class="topnav" id="myTopnav" style="height:8%;overflow:auto">
         <div class="topnav">
             <a href="#home" class="active" style="padding-left: 5%;"><b>Edwin Rueda Site</b></a>
             <!-- <a style="width: 60%;"></a> -->
-            <a href="#contact" style="float:right; padding-right: 5%;">Contact</a>
-            <a href="#projects" style="float:right;">Projects</a>
-            <a href="#aboutme" style="float:right;">About me</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="#contact" style="float:right; padding-right: 5%;" onclick="myFunction()">Contact</a>
+            <a href="#projects" style="float:right;" onclick="myFunction()">Projects</a>
+            <a href="#aboutme" style="float:right;"onclick="myFunction()">About me</a>
+            <a href="javascript:void(0);" style="width: 1.2em;"class="icon" onclick="myFunction()"><img style="width:100%;"src="./images/menu.png"type="image/png">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
     </div>
     <!-- div para el contenido incial -->
     <div class="aboutme" id="aboutme">
-        <!-- <table class="table_1">
-            <tr>
-                <td rowspan="2" style="width:35%;"><img src="./images/avatar.jpg"type="image/jpg" style="border-radius: 100%;width: 60%;"><br>
-                    <br>
-                    <a style="font-size:23;">EDWIN JAHIR <br>RUEDA ROJAS</a><br><br>
-                    <a style="color:rgb(177, 177, 177); font-size:23;"> Systems Engineer <br>and Computer Science</a><br><br>
-                    <a href="https://www.uis.edu.co/webUIS/es/index.jsp" target="_blank" style="text-decoration:none; color:#279aff;">
-                        Universidad Industrial de Santander</a>
-                </td>
-                <td colspan="2"style="width:65%;">
-                    <p><b style="font-size:23;">About me</b></p>
-                </td>
-            </tr>
-            <tr>
-                <td style="width:20%;"><p><b style="font-size:23;">Interests</b></p>
-                    <div style="text-align:left;">
-                        <li>Data Analytics</li>
-                        <li>Deep Learning</li>
-                        <li>Machine Learning</li>
-                    </div>
-                </td>
-                <td style="width:45%;">
-                    <p>
-                    <img src="./images/grade_2.png"type="image/png">
-                    <b style="font-size:23;"><br>Education</b> <br>
-                    Systems Engineer and Computer Science, 2018 <br>
-                    Universidad Industrial de Santander
-                    </p>
-                </td>
-            </tr>
-        </table> -->
         <!-- Contendor para el perfil -->
         <div class="perfil">
             <img src="./images/avatar.jpg"type="image/jpg" style="border-radius: 100%;"><br>
@@ -63,7 +32,13 @@
             <a style="font-size:23;">EDWIN JAHIR <br>RUEDA ROJAS</a><br><br>
             <a style="color:rgb(177, 177, 177); font-size:23;"> Systems Engineer <br>and Computer Science</a><br><br>
             <a href="https://www.uis.edu.co/webUIS/es/index.jsp" target="_blank" style="text-decoration:none; color:#279aff;">
-                Universidad Industrial de Santander</a>
+                Universidad Industrial de Santander</a><br><br>
+            <!-- para los iconos -->
+            <a target="_blank" href="https://www.linkedin.com/in/ejrueda95/"><img style="width:7%; padding-right: 1%;"src="./images/linkedin.png" type="image/png"></a>
+            <a target="_blank" href="https://github.com/ejrueda"><img style="width: 7%; padding-right: 1%;"src="./images/github.png" type="image/png"></a>
+            <a href="mailto:ejrueda95g@gmail.com" rel="noopener">
+                <img style="width: 7%; padding-right: 1%;"src="./images/gmail.png" type="image/png"></a>
+            <a target="_blank" href="https://www.kaggle.com/ejrueda95"><img style="width: 15%;"src="./images/kaggle.png" type="image/png"></a>
         </div>
         <!-- contenedor para la descripción -->
         <div  class="desc">
@@ -79,29 +54,35 @@
         <!-- contenedor para el estudio -->
         <div class="study">
             <p>
-                <img src="./images/grade_2.png"type="image/png">
+                <img src="./images/mortarboard.png" style="width:15%;"type="image/png">
                 <b style="font-size:23;"><br>Education</b> <br>
                 Systems Engineer and Computer Science, 2018 <br>
                 Universidad Industrial de Santander
             </p>
         </div>
     </div>
-    <!-- div -->
     <hr style="width: 80%;">
+    <!-- div para los proyectos-->
     <div class="projects" id="projects">
-        <table class="table_1">
-            <th>Projects</th>
-            <tr>
-                <td>Research projects</td>
-            </tr>
-        </table>
+        <p><h2>Projects</h2></p>
+        <!-- contenedor del stock prices prediction -->
+        <div style="width: 46%;padding-right: 2%;padding-left:2%;float: left;">
+            <div class="stock">
+                <h3>Time series prediction with recurrent<br>
+                    neural networks</h3>
+            </div>
+        </div>
+        <!-- contenedor del dogsvscats -->
+        <div style="width: 46%;padding-right: 2%;padding-left:2%;float: left;">
+            <div class="stock">
+                <h3>Dogs vs Cats classification</h3>
+            </div>
+        </div>
     </div>
     <hr style="width: 80%;">
     <!-- div para la sección de contacto -->
     <div class="contact" id="contact">
-        <table class="table_1">
-            <th>Contact</th>
-        </table>
+        <p>Contact</p>
     </div>
     <hr style="width: 80%;">
     <!-- div para derechos de autor -->
