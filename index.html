@@ -27,7 +27,7 @@
     <div class="aboutme" id="aboutme">
         <!-- Contendor para el perfil -->
         <div class="perfil">
-            <img src="./images/avatar.jpg"type="image/jpg" style="border-radius: 100%;"><br>
+            <img src="./images/avatar.jpg"type="image/jpg" style="border-radius: 100%;width: 50%;"><br>
             <br>
             <a style="font-size:23;">EDWIN JAHIR <br>RUEDA ROJAS</a><br><br>
             <a style="color:rgb(177, 177, 177); font-size:23;"> Systems Engineer <br>and Computer Science</a><br><br>
@@ -64,18 +64,36 @@
     <hr style="width: 80%;">
     <!-- div para los proyectos-->
     <div class="projects" id="projects">
-        <p><h2>Projects</h2></p>
+        <div class ="title">
+            <img id="img_start"src="./images/start.png"style="width:5%;"type="image/png" align="absmiddle">
+            <a style="font-size: 28;">Research Projects</a>
+        </div>
         <!-- contenedor del stock prices prediction -->
-        <div style="width: 46%;padding-right: 2%;padding-left:2%;float: left;">
-            <div class="stock">
+        <div class="cont_proj">
+            <div class="stock" onclick="window.location='#aboutme';">
+                <a href="#aboutme">
+                    <img id="img_pro" src="./images/ask.jpeg" type="image/png" style="width:100% ">
+                </a>
                 <h3>Time series prediction with recurrent<br>
                     neural networks</h3>
+                <p style="text-align: justify;padding-right: 2%;padding-left: 2%;">
+                    Se construyen modelos de Machine Learning y Deep Learning para  tratar de predecir el comportamiento
+                    de las series financieras, a partir de ello se ejecuta una estratégia de trading.
+                </p>
             </div>
         </div>
         <!-- contenedor del dogsvscats -->
-        <div style="width: 46%;padding-right: 2%;padding-left:2%;float: left;">
-            <div class="stock">
-                <h3>Dogs vs Cats classification</h3>
+        <div class="cont_proj">
+            <div class="stock" onclick="window.location='#aboutme';">
+                <a href="#aboutme">
+                    <img id="img_pro" src="./images/dogcatsfont.jpg" type="image/png" style="width:100% ">
+                </a>
+                <h3>Dogs vs. Cats</h3>
+                <p style="text-align: justify;padding-right: 2%;padding-left: 2%;">
+                    Clasificación binaria de imágenes, se construye un modelo
+                    para clasificar si una imagen de entrada contiene un perro o un gato.<br><br>
+                    Competition: <a target="_blank" style="text-decoration:none; color:#279aff;" href="https://www.kaggle.com/c/dogs-vs-cats"> Kaggle Competition</a>
+                </p>
             </div>
         </div>
     </div>
