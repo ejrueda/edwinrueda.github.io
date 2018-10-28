@@ -135,7 +135,30 @@
     /* filter: grayscale(100%); */
     opacity: 0.6;
     }
-
+.contact {
+    background-image: url("../images/contact.jpeg");
+    background-repeat: round;
+}
+.btn{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    color: #636262;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right:1%;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(185, 185, 185);
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1200px) {
     .topnav a:not(:first-child) {display: none;}
