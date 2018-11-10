@@ -1,9 +1,15 @@
 /* Add a black background color to the top navigation */
+.title{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    color: #636262;
+    text-align: center;
+}
 .topnav {
     background-color: #fafafa;
     overflow: hidden;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-
+    z-index: 1;
 }
 .projects, .contact{
     color: #636262;
@@ -130,13 +136,13 @@
 }
 .projects .cont_proj img:hover {
     /* border: 5px solid #ccc;
-    float: left;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -ms-transition: margin 0.5s ease-out;
     transition: margin 0.5s ease-out; */
     /* filter: grayscale(100%); */
     opacity: 0.6;
+    z-index: -1;
     }
 .btn{
     color: #333;
