@@ -195,6 +195,9 @@
         padding-left: 0%;
         display: block;
     }
+    .aboutme .perfil a{
+        font-size: 3vw !important;
+    }
     .projects .cont_proj {
         width: 86%;
         height: 100%;
