@@ -189,11 +189,11 @@
     }
   }
   @media screen and (max-width: 650px){
-    .perfil, .desc, .inter, .study, .projects, .contact, .stock, .projects_section{
-        width:100%;
+    .perfil, .desc, .inter, .study, .projects, .contact, .stock, .projects_section {
+        width: 90%;
         /* padding-top: 8%; */
-        padding-right: 0%;
-        padding-left: 0%;
+        padding-right: 5%;
+        padding-left: 5%;
         display: block;
     }
     .aboutme .perfil a{
@@ -238,8 +238,8 @@
     padding-left: 2.5%;
   }
   .projects_section .footer{
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
     text-align: center;
   }
