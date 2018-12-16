@@ -71,7 +71,7 @@
 .study {
     float:left;
     height:34%;
-    width: 19%;
+    width: 29%;
     padding-left: 3%;
     padding-right: 3%;
     text-align: center;
@@ -189,9 +189,9 @@
     }
   }
   @media screen and (max-width: 650px){
-    .perfil, .desc, .inter, .study, .projects, .contact, .stock{
+    .perfil, .desc, .inter, .study, .projects, .contact, .stock, .projects_section{
         width:100%;
-        padding-top: 8%;
+        /* padding-top: 8%; */
         padding-right: 0%;
         padding-left: 0%;
         display: block;
@@ -206,10 +206,40 @@
         padding-left: 7%;
         float: left;
     }
+    .projects_section .resume{
+        width: 90% !important;
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
     #img_start{
         width: 12vw !important;
     }
     .inter li{padding-left: 25%;}
     .study{padding-left: 0%;}
   }
-  
+  /* ****************************************************** */
+  /* ************** Estilo para los proyectos ************* */
+  /* ****************************************************** */
+  .projects_section .p_title{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 37px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  .projects_section .resume{
+    width: 45%;
+    text-align: justify;
+    float: left;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+  .projects_section .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
