@@ -54,6 +54,7 @@
     padding:2%;
     /* margin-top:3%; */
     text-align:center;
+    height: auto;
 }
 .desc {
     float:left;
@@ -195,6 +196,7 @@
         padding-right: 5%;
         padding-left: 5%;
         display: block;
+        height: auto;
     }
     .aboutme .perfil a{
         font-size: 3vw !important;
@@ -205,6 +207,7 @@
         padding-right: 7%;
         padding-left: 7%;
         float: left;
+        height: auto;
     }
     .projects_section .resume{
         width: 90% !important;
@@ -227,6 +230,7 @@
     height: auto;
     text-align: center;
     padding-top: 3%;
+    padding-bottom: 2%;
     font-size: 37px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
