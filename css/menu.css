@@ -224,7 +224,7 @@
         width: 12vw !important;
     }
     .inter li{padding-left: 25%;}
-    .study{padding-left: 0%;}
+    /* .study{padding-left: 0%;} */
     .projects_section .img_portada .img{
         width: 100%;
     }
