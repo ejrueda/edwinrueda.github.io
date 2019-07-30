@@ -78,11 +78,11 @@
     text-align: center;
 }
 .projects{
-    width: 90%;
+    /* width: 90%; */
     height: 90%;
     padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
     text-align: center;
     /* background-color: rgb(247, 247, 247); */
 }
@@ -130,9 +130,10 @@
     cursor: pointer;
 }
 .projects .cont_proj{
-    width: 36%;
-    padding-right: 7%;
-    padding-left:7%;
+    /* width: 36%; */
+    width: 29%;
+    padding-right: 2%;
+    padding-left:2%;
     float: left;
 }
 .projects .cont_proj img:hover {
