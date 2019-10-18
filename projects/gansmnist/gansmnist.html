@@ -17,8 +17,8 @@
             <!-- <a style="width: 60%;"></a> -->
             <a href="../../index.html#contact" style="float:right; padding-right: 5%;" onclick="myFunction()">Contact</a>
             <a href="../../index.html#projects" style="float:right;" onclick="myFunction()">Projects</a>
-            <a href="../../index.html#cursos" style="float:right;" onclick="myFunction()">Cursos</a>
             <a href="../../index.html" style="float:right;"onclick="myFunction()">About me</a>
+            <a href="../../index.html#cursos" style="float:right;" onclick="myFunction()">Cursos</a>
             <a href="javascript:void(0);" style="width: 1.2em;"class="icon" onclick="myFunction()">
                 <img style="width:100%;"src="../../images/menu.png"type="image/png">
                 <i class="fa fa-bars"></i>
@@ -28,19 +28,26 @@
     <div class="projects_section" style="height: 83%;">
         <!-- Sección del titulo -->
         <div class="p_title">
-            <a>Recognition of genre of music (4th)</a>
+            <a>Generative Adversarial Networks (GANs) for MNIST</a>
         </div>
         <!-- div para la imagen inicial -->
         <div class="img_portada">
-            <img class="img" src="../../images/music4.png"type="image/png">
+            <img style="width: 100%;" class="img" src="../../images/mnist_gan.png"type="image/png">
         </div>
         <!-- div para la descripción del proyecto -->
         <div class="resume">
             <p>
-                This competition is based on the Data mining contest associated with the 19th International
-                Symposium on Methodologies for Intelligent Systems (ISMIS 2011). The task is to recognize
-                different music genres of provided music samples, based on extracted sound features
-                (<a href="https://www.kaggle.com/c/music4ed/overview" target="_blank" style="text-decoration:none; color:#279aff;">Competition</a>).
+                Se crea una arquitectura GAN para generar nuevos dígitos escritos a mano a partir
+                de una distribución normal, consiguiendo así poder aumentar el conjunto de datos para
+                posteriormente poder ser utilizados en otro tipo de tareas de AI.
+                <br><br>
+                Para validar la capacidad de generación de dicha arquitectura y para entrenar el
+                Discriminador de dicha arquitectura, se utiliza el banco de datos MNIST el cual contiene
+                60.000 imágenes escritas a mano con una resolución de (28,28,1) en escala de gris.
+                <br><br>
+                La imágen que se muestra representa los dígitos generados por la red generadora de la GAN,
+                teniendo en cuenta que estos dígitos son generados a partir de un vector de 200
+                características, el cual sigue una distribución normal.
             </p>
         </div>
         <!-- div para descargar el pdf -->

@@ -290,3 +290,71 @@
     background-color: rgb(10, 60, 124);
     /* test de pruebas */
 }
+  /* ****************************************************** */
+  /* ************** Estilo para los cursos **************** */
+  /* ****************************************************** */
+  .cursos{
+    padding-top: 3%;
+    overflow-y: auto;
+  }
+  .cursos .row_content{
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cursos .content{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    overflow-y: auto;
+    float: left;
+  }
+  .cursos .content .curso{
+    -webkit-box-shadow: 2px 2px 2px 2px #0303032e;
+    -moz-box-shadow: 1px 3px 5px #030303;
+    filter: shadow(color=#030303, direction=135, strength=2);
+    border-radius: 2%;
+    float: left;
+    background-color: rgba(195, 195, 195, 0.1);
+  }
+  .cursos .content .curso .image{
+    width: 25%;
+    padding-left: 2%;
+    float: left;
+  }
+  .cursos .content .curso .cuerpo{
+    width: 73%;
+    float: left;
+  }
+  .cursos .content .curso .cuerpo p, .cursos .content .curso .cuerpo a{
+      padding-left: 5%;
+      text-decoration: none;
+  }
+  .cursos .content .curso .cuerpo .btn{
+    background-color: rgb(77, 105, 189);
+    border-color: #ccc;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    color: rgb(247, 247, 247);
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+  }
+  .cursos .content .curso .image #img{
+    border-radius: 10%;
+    width: 95%;
+  }
+  @media screen and (max-width: 725px) {
+    .cursos .row_content{
+      float: left;
+      display: inline-grid;
+    }
+  }
