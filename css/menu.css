@@ -358,3 +358,15 @@
       display: inline-grid;
     }
   }
+
+  /* ****************************************** */
+  /* ***** ESTILO PARA LAS PUBLICACIONES ****** */
+  /* ****************************************** */
+  .publication_div{
+    width: 50%;
+  }
+  @media screen and (max-width: 725px) {
+    .publication_div{
+      width:94%;
+    }
+  }
